@@ -1,0 +1,46 @@
+body{
+	//background-image: url(Untitled.png);
+    background-size:contain;
+	background: linear-gradient(to right,black,green);
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: #0008;
+	//line-height: 80px;
+}
+nav ol{
+    //margin-right: 500px;
+    
+	float: right;
+}
+nav li{
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+nav ol li .fa{
+    margin-right: 5px;
+}
+nav ol li:hover{
+	background-color: #D4AF37;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+text p{
+	text-align: left;
+	font-size: 20px;
+	border-style: inset;
+	border-width: 2px;
+}
+text p img:hover{
+	background-color: #D4AF37;
+    border-style: groove;
+    border-radius: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
